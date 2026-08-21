@@ -1,0 +1,438 @@
+/* =========================================================
+   DESIGN TOKENS
+   Colors are set at runtime from theme.config.js (see main.js),
+   these are just fallback defaults so the page never renders unstyled.
+   ========================================================= */
+:root {
+  --color-bg: #1B1613;
+  --color-surface: #241E19;
+  --color-surface-raised: #2C2521;
+  --color-text: #EDE6DC;
+  --color-text-soft: #A89A8C;
+  --color-ember: #C1502E;
+  --color-ember-soft: #8C3B22;
+  --color-brass: #9C7A3C;
+  --color-border: #3A322B;
+
+  --font-display: "Rakkas", serif;
+  --font-body: "Tajawal", sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 116px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; }
+
+button, input {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Visible keyboard focus everywhere, no exceptions */
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: 900px;
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}
+
+/* =========================================================
+   COVER / HEADER
+   Typographic cover, not a stock-photo hero. A thin brass rule
+   above and below the name evokes a printed menu's title block.
+   ========================================================= */
+.cover {
+  padding-block: var(--space-6) var(--space-5);
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cover__logo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  margin-inline: auto;
+  margin-bottom: var(--space-3);
+}
+
+.cover__rule {
+  width: 40px;
+  height: 2px;
+  background: var(--color-brass);
+  margin-inline: auto;
+  margin-bottom: var(--space-3);
+}
+
+.cover__name {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  line-height: 1.15;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.cover__tagline {
+  margin: var(--space-2) 0 0;
+  color: var(--color-text-soft);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+/* =========================================================
+   STICKY CONTROL BAR (search + category tabs)
+   Opaque, not blurred glass. Sits directly under scroll top.
+   ========================================================= */
+.control-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: var(--space-3);
+}
+
+.search {
+  position: relative;
+  margin-bottom: var(--space-3);
+}
+
+.search__input {
+  width: 100%;
+  padding: 12px var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.search__input::placeholder { color: var(--color-text-soft); }
+
+.search__clear {
+  position: absolute;
+  inset-inline-end: var(--space-2);
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--color-text-soft);
+  font-size: 1.1rem;
+  padding: var(--space-2);
+  cursor: pointer;
+  display: none;
+}
+
+.search__clear.is-visible { display: block; }
+
+/* Category tabs: underline rail, not filled pill buttons */
+.tabs {
+  display: flex;
+  gap: var(--space-5);
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: var(--space-1);
+}
+.tabs::-webkit-scrollbar { display: none; }
+
+.tab {
+  flex: none;
+  background: none;
+  border: none;
+  padding-block: var(--space-2);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-soft);
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab:hover { color: var(--color-text); }
+
+/* The "sear mark" — the signature detail: the active tab gets a solid
+   ember underline, like a scorch line from a grill grate. */
+.tab.is-active {
+  color: var(--color-text);
+  border-bottom-color: var(--color-ember);
+}
+
+.tabs.is-disabled .tab {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* =========================================================
+   MENU LIST — row layout, not a photo-card grid.
+   Faster to scan on a phone: image + name + description + price
+   sit on one line of attention instead of a stacked card.
+   ========================================================= */
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-brass);
+  margin: var(--space-5) 0 var(--space-3);
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  gap: var(--space-4);
+  padding-block: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.menu-item__thumb {
+  flex: none;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+.menu-item__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-item__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.menu-item__name {
+  margin: 0 0 2px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.menu-item__desc {
+  margin: 0 0 var(--space-2);
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+  line-height: 1.4;
+}
+
+.menu-item__price {
+  font-weight: 800;
+  color: var(--color-ember);
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+}
+
+/* Size chips: dynamic count, arbitrary labels — not fixed to 3 boxes */
+.size-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.size-chip {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+}
+
+.size-chip__label { color: var(--color-text-soft); }
+.size-chip__price {
+  color: var(--color-ember);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.menu-item__category-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  color: var(--color-brass);
+  margin-bottom: 2px;
+}
+
+/* =========================================================
+   EMPTY / NO-RESULTS STATE
+   ========================================================= */
+.empty-state {
+  text-align: center;
+  padding-block: var(--space-6);
+  color: var(--color-text-soft);
+}
+
+.empty-state__title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin: 0 0 var(--space-2);
+}
+
+.empty-state__action {
+  margin-top: var(--space-3);
+  background: none;
+  border: 1px solid var(--color-brass);
+  color: var(--color-brass);
+  padding: 8px 20px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.empty-state__action:hover {
+  background: var(--color-brass);
+  color: var(--color-bg);
+}
+
+/* =========================================================
+   LIGHTBOX
+   ========================================================= */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 12, 10, 0.95);
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.lightbox.is-open { display: flex; }
+
+.lightbox img {
+  max-width: 92vw;
+  max-height: 85vh;
+  border-radius: var(--radius-md);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--space-4);
+  inset-inline-end: var(--space-4);
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.8rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* =========================================================
+   UTILITY ACTIONS (WhatsApp / back-to-top)
+   Small ink-outlined circles, not saturated FAB buttons.
+   ========================================================= */
+.utility-actions {
+  position: fixed;
+  bottom: var(--space-4);
+  inset-inline-start: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  z-index: 50;
+}
+
+.utility-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.utility-btn--ember {
+  border-color: var(--color-ember);
+  color: var(--color-ember);
+}
+
+.footer {
+  text-align: center;
+  padding-block: var(--space-6);
+  color: var(--color-text-soft);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--color-border);
+}
+
+/* =========================================================
+   RESPONSIVE — mobile-first, checked at 360 / 390 / 430 / tablet / desktop
+   ========================================================= */
+
+/* 390px and up: slightly roomier spacing */
+@media (min-width: 390px) {
+  .menu-item__thumb { width: 80px; height: 80px; }
+}
+
+/* 430px and up */
+@media (min-width: 430px) {
+  .cover { padding-block: var(--space-6) var(--space-6); }
+}
+
+/* Tablet (768px+): two-column list reads better than one long column */
+@media (min-width: 768px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 var(--space-5);
+  }
+  .menu-item { border-bottom: 1px solid var(--color-border); }
+}
+
+/* Desktop (1024px+): comfortable max width, larger thumbnails */
+@media (min-width: 1024px) {
+  .menu-item__thumb { width: 96px; height: 96px; }
+  .cover__name { font-size: 3.5rem; }
+}

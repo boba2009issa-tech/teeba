@@ -1,0 +1,881 @@
+{
+  "categories": [
+    {
+      "id": "rukn-sandwiches-western",
+      "name": "ركن السندوتشات الغربي",
+      "items": [
+        {
+          "name": "سندوتش كرانشي بالجبنة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%B3%D9%88%D8%A8%D8%B1_%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A638548966303336424.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 60
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "سندوتش سكالوب",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%B3%D9%83%D8%A7%D9%84%D9%88%D8%A8_%D8%A8%D8%A7%D9%86%D9%8A%D9%87638548966172881195.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش شيكن ساب",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%B4_%D8%AA%D8%B4%D9%8A%D9%83%D9%86_%D8%B3%D8%A7%D8%A8638548966063209186.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش شيش سوري",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4__%D8%B4%D9%8A%D8%B4_%D8%B7%D8%A7%D9%88%D9%88%D9%82638548966431226487.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 50
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش فرانشيكو",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/Francesco_sandwich638548674162284578.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 60
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "سندوتش زنجر سوري",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%B2%D9%86%D8%AC%D8%B1638548674178925570.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 60
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "سندوتش كريسبى",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%AA%D8%B4%D9%8A%D9%83%D9%86_%D9%83%D8%B1%D8%B3%D8%A8%D9%8A638548966378684270.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 50
+            },
+            {
+              "label": "وسط",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش مكسيكانو",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%89_%D8%B3%D8%A8%D8%A7%D9%8A%D8%B3%D9%8A638548972010124674.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش شرائح فراخ",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش برجر",
+          "image": "",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 60
+            },
+            {
+              "label": "كبير",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "name": "سندوتش برجر ميكس",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%A8%D8%B1%D8%AC%D8%B1_%D9%85%D9%83%D8%B3%D638548674163151209.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 65
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "سندوتش برجر شيش",
+          "image": "",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 55
+            },
+            {
+              "label": "كبير",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "name": "سندوتش برجر بيض",
+          "image": "",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 65
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "فاهيتا فراخ سوري بالجبنة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D9%81%D8%A7%D9%87%D9%8A%D8%AA%D8%A7638548966980642137.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 60
+            },
+            {
+              "label": "كبير",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "name": "سندوتش كبيبة سوري بالبطاطس",
+          "image": "",
+          "price": 65
+        },
+        {
+          "name": "سندوتش كبدة سوري",
+          "image": "",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "rukn-breakfast",
+      "name": "ركن الفطور",
+      "items": [
+        {
+          "name": "سندوتش بطاطس بالجبنة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3_%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%86%D8%A9638548674121071101.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 35
+            },
+            {
+              "label": "كبير",
+              "price": 45
+            }
+          ]
+        },
+        {
+          "name": "سندوتش بطاطس عيش شامي",
+          "image": "",
+          "price": 15
+        },
+        {
+          "name": "سندوتش بطاطس سوري",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3638548969639196688.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 25
+            },
+            {
+              "label": "كبير",
+              "price": 35
+            }
+          ]
+        },
+        {
+          "name": "سندوتش بطاطس بالطحينة",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 23
+            },
+            {
+              "label": "كبير",
+              "price": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rukn-meals-western",
+      "name": "ركن الوجبات الغربي",
+      "items": [
+        {
+          "name": "وجبة ريزو بالأرز كرانشي بالصوص",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B1%D9%8A%D8%B2%D9%88_%D8%B5%D8%BA%D9%8A%D8%B1638548674169866873.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 100
+            },
+            {
+              "label": "كبير",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "name": "وجبة سكالوب",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D9%87_%D8%B3%D9%83%D8%A7%D9%84%D9%88%D8%A8638548673983911602.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "وجبة شيش ساب",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 90
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "نص كيلو شيش طاووق جريل",
+          "image": "",
+          "price": 235
+        },
+        {
+          "name": "ربع كيلو شيش طاووق جريل",
+          "image": "",
+          "price": 135
+        },
+        {
+          "name": "وجبة شيش سوري مع أرز بسمتي",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D9%8A%D8%B4_%D8%A8%D8%A7%D9%84%D8%B1%D8%B2638548969910433072.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "وجبة شيش سوري كبير بالبطاطس",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D9%8A%D8%B4_%D8%A8%D8%A7%D9%84_%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%B7638548674161586879.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "نص كيلو كرسبي",
+          "image": "",
+          "price": 235
+        },
+        {
+          "name": "ربع كيلو كرسبي",
+          "image": "",
+          "price": 135
+        },
+        {
+          "name": "وجبة كرسبي مع أرز بسمتي",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%E2%80%8F%D9%88%D8%AC%D8%A8%D8%A9_%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A_%D8%A8%D8%A7%D9%84%D8%B1%D8%B2638548969293201569.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "وجبة فاهيتا",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%81%D8%A7%D9%87%D9%8A%D8%AA%D8%A7638548969552024744.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 90
+            },
+            {
+              "label": "كبير",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "name": "وجبة كبدة فراخ سوري مع أرز بسمتي",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 75
+            },
+            {
+              "label": "كبير",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "name": "وجبة ميكسيكانو مع أرز بسمتي",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%8A_%D8%A8%D8%A7%D9%84_%D8%A7%D9%84%D8%B1%D8%B2638548674124241229.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 140
+            }
+          ]
+        },
+        {
+          "name": "وجبة فرانشيكو",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 90
+            },
+            {
+              "label": "كبير",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "name": "وجبة زنجر بالجبنة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B2%D9%86%D8%AC%D8%B1638548968485840628.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 90
+            },
+            {
+              "label": "كبير",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "name": "وجبة كرانشي",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 90
+            },
+            {
+              "label": "كبير",
+              "price": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rukn-appetizers",
+      "name": "ركن المقبلات",
+      "items": [
+        {
+          "name": "طبق فتة",
+          "image": "",
+          "price": 45
+        },
+        {
+          "name": "طبق سلطة خضراء",
+          "image": "",
+          "price": 40
+        },
+        {
+          "name": "طبق أرز بسمتي",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 35
+            },
+            {
+              "label": "كبير",
+              "price": 45
+            }
+          ]
+        },
+        {
+          "name": "طبق بطاطس محمرة",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 25
+            },
+            {
+              "label": "كبير",
+              "price": 35
+            }
+          ]
+        },
+        {
+          "name": "طبق كول سلو",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 15
+            },
+            {
+              "label": "كبير",
+              "price": 35
+            }
+          ]
+        },
+        {
+          "name": "ثومية",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 10
+            },
+            {
+              "label": "كبير",
+              "price": 25
+            }
+          ]
+        },
+        {
+          "name": "ثومية سبايسي",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 12
+            },
+            {
+              "label": "كبير",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "name": "طبق حمص",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 15
+            },
+            {
+              "label": "كبير",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "name": "قطعة كبيبة سوري",
+          "image": "",
+          "price": 25
+        },
+        {
+          "name": "مخلل",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 10
+            },
+            {
+              "label": "كبير",
+              "price": 15
+            }
+          ]
+        },
+        {
+          "name": "ربطة العيش الشامي",
+          "image": "",
+          "price": 13
+        },
+        {
+          "name": "لقمة العيش السوري صاج",
+          "image": "",
+          "price": 3
+        },
+        {
+          "name": "طبق بطاطس بالجبنة",
+          "image": "",
+          "sizes": [
+            {
+              "label": "وسط",
+              "price": 40
+            },
+            {
+              "label": "كبير",
+              "price": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rukn-grill",
+      "name": "ركن الشواية",
+      "items": [
+        {
+          "name": "وجبة فرخة شواية كاملة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%81%D8%B1%D8%AE%D8%A9_%D8%AD%D8%AC%D9%85_%D8%B9%D8%A7%D8%A6%D9%84%D9%8A_%D8%A8%D8%A7%D9%84%D8%B1%D8%B2638548970215233905.jpg?width=172&height=172",
+          "price": 350
+        },
+        {
+          "name": "وجبة نص فرخة شواية",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%86%D8%B5_%D9%81%D8%B1%D8%AE%D8%A9_%D8%A8%D8%A7%D9%84%D8%B1%D8%B2_%D9%88%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7638548970302303949.jpg?width=172&height=172",
+          "price": 180
+        },
+        {
+          "name": "وجبة ربع فرخة شواية صدر",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%E2%80%8F%D9%88%D8%AC%D8%A8%D8%A9_%E2%80%AB%D8%B1%D8%A8%D8%B9_%D8%B5%D8%AF%D8%B1638548970433934506.jpg?width=172&height=172",
+          "price": 110
+        },
+        {
+          "name": "وجبة ربع فرخة شواية ورك",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B1%D8%A8%D8%B9_%D9%88%D8%B1%D9%83638548970544716475.jpg?width=172&height=172",
+          "price": 100
+        },
+        {
+          "name": "وجبة ربع فرخة شواية دوبل ورك",
+          "image": "",
+          "price": 170
+        },
+        {
+          "name": "فرخة شواية سادة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%81%D8%B1%D8%AE%D8%A9_%D8%B3%D8%A7%D8%AF%D8%A9638548674121221936.jpg?width=172&height=172",
+          "price": 300
+        },
+        {
+          "name": "نص فرخة شواية سادة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%86%D8%B5_%D9%81%D8%B1%D8%AE%D8%A9_%D8%B3%D8%A7%D8%AF%D8%A9638548674183746782.jpg?width=172&height=172",
+          "price": 155
+        }
+      ]
+    },
+    {
+      "id": "rukn-broasted",
+      "name": "ركن البروستيد",
+      "items": [
+        {
+          "name": "وجبة بروست 4 قطع",
+          "image": "",
+          "price": 185
+        },
+        {
+          "name": "دبوس + ورك بروست",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%A8%D8%B1%D9%88%D8%B3%D8%AA%D8%AF_%D9%88%D8%B1%D9%83_%D9%88%D8%AF%D8%A8%D9%88%D8%B3638548674077317353.jpg?width=172&height=172",
+          "price": 105
+        },
+        {
+          "name": "صدر + جناح بروست",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%A8%D8%B1%D9%88%D8%B3%D8%AA%D8%AF_%D8%B5%D8%AF%D8%B1_%D9%88%D8%AC%D9%86%D8%A7%D8%AD638548674145597838.jpg?width=172&height=172",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "sandwiches-shawarma-meat",
+      "name": "سندوتشات شاورما لحمة",
+      "items": [
+        {
+          "name": "سندوتش شاورما لحمة كايزر",
+          "image": "",
+          "price": 60
+        },
+        {
+          "name": "سندوتش شاورما لحمة وسط",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%84%D8%AD%D9%85%D8%A9_%D9%88%D8%B3%D8%B7638548674129245664.jpg?width=172&height=172",
+          "price": 70
+        },
+        {
+          "name": "سندوتش شاورما لحمة كبير",
+          "image": "",
+          "price": 80
+        },
+        {
+          "name": "سندوتش لحمة صاروخ",
+          "image": "",
+          "price": 105
+        },
+        {
+          "name": "سندوتش لحمة فرنساوي كبير",
+          "image": "",
+          "price": 105
+        },
+        {
+          "name": "مقطع شاورما عربي لحمة سنجل",
+          "image": "",
+          "price": 100
+        },
+        {
+          "name": "مقطع شاورما عربي لحمة دبل",
+          "image": "",
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": "وجبات-shawarma-meat",
+      "name": "وجبات شاورما لحمة",
+      "items": [
+        {
+          "name": "وجبة شاورما لحمة مع أرز بسمتي",
+          "image": "",
+          "price": 125
+        },
+        {
+          "name": "وجبة شاورما لحمة بالبطاطس",
+          "image": "",
+          "price": 150
+        },
+        {
+          "name": "فتة شاورما لحمة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%81%D8%AA%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%84%D8%AD%D9%85%D8%A9638548674101036884.jpg?width=172&height=172",
+          "price": 130
+        },
+        {
+          "name": "ماريا لحمة بالجبنة",
+          "image": "",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "shawarma-meat-bulk",
+      "name": "شاورما لحمة فرط",
+      "items": [
+        {
+          "name": "نص كيلو شاورما لحمة",
+          "image": "",
+          "price": 340
+        },
+        {
+          "name": "ربع كيلو شاورما لحمة",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D9%87_%D8%B1%D8%A8%D8%B9_%D9%83%D9%8A%D9%84%D9%88_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%84%D8%AD%D9%85%D8%A9638548674088979315.jpg?width=172&height=172",
+          "price": 175
+        }
+      ]
+    },
+    {
+      "id": "shawarma-mix",
+      "name": "شاورما ميكس",
+      "items": [
+        {
+          "name": "سندوتش شاورما ميكس (لحمة وفراخ)",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%85%D9%83%D8%B3_%D9%88%D8%B3%D8%B7638548965791413145.jpg?width=172&height=172",
+          "sizes": [
+            {
+              "label": "كايزر",
+              "price": 70
+            },
+            {
+              "label": "وسط",
+              "price": 80
+            },
+            {
+              "label": "كبير",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "name": "مقطع شاورما ميكس",
+          "image": "",
+          "sizes": [
+            {
+              "label": "الأول",
+              "price": 110
+            },
+            {
+              "label": "الثاني",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "name": "فتة شاورما ميكس",
+          "image": "",
+          "price": 130
+        }
+      ]
+    },
+    {
+      "id": "sandwiches-shawarma-chicken",
+      "name": "سندوتشات شاورما فراخ",
+      "items": [
+        {
+          "name": "سندوتش شاورما فراخ كايزر",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE_%D8%B5%D8%BA%D9%8A%D8%B1638548674159174556.jpg?width=172&height=172",
+          "price": 60
+        },
+        {
+          "name": "سندوتش شاورما فراخ وسط",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE_%D9%88%D8%B3%D8%B7638548965213164799.jpg?width=172&height=172",
+          "price": 65
+        },
+        {
+          "name": "سندوتش شاورما فراخ كبير",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%86%D8%AF%D9%88%D9%8A%D8%AA%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE_%D9%83%D8%A8%D9%8A%D8%B1638548674143179081.jpg?width=172&height=172",
+          "price": 75
+        },
+        {
+          "name": "سندوتش فراخ صاروخ",
+          "image": "",
+          "price": 100
+        },
+        {
+          "name": "سندوتش فراخ فرنساوي كبير",
+          "image": "",
+          "price": 100
+        },
+        {
+          "name": "مقطع شاورما عربي فراخ سنجل",
+          "image": "",
+          "price": 100
+        },
+        {
+          "name": "مقطع شاورما عربي فراخ دبل",
+          "image": "",
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": "وجبات-shawarma-chicken",
+      "name": "وجبات شاورما فراخ",
+      "items": [
+        {
+          "name": "وجبة شاورما فراخ مع أرز بسمتي",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE_%D8%A8%D8%A7%D9%84%D8%B1%D8%B2638548674102473601.jpg?width=172&height=172",
+          "price": 120
+        },
+        {
+          "name": "وجبة شاورما فراخ بالبطاطس",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE_%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7638548674153932226.jpg?width=172&height=172",
+          "price": 140
+        },
+        {
+          "name": "فتة شاورما فراخ",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D9%81%D8%AA%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE638548674128124564.jpg?width=172&height=172",
+          "price": 125
+        },
+        {
+          "name": "ماريا فراخ بالجبنة",
+          "image": "",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "shawarma-chicken-bulk",
+      "name": "شاورما فراخ فرط",
+      "items": [
+        {
+          "name": "نص كيلو شاورما فراخ",
+          "image": "",
+          "price": 260
+        },
+        {
+          "name": "ربع كيلو شاورما فراخ",
+          "image": "https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B1%D8%A8%D8%B9_%D9%83%D9%8A%D9%84%D9%88_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D9%81%D8%B1%D8%A7%D8%AE638548674171697331.jpg?width=172&height=172",
+          "price": 150
+        }
+      ]
+    }
+  ]
+}

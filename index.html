@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Menu</title>
+<link rel="icon" href="./logo.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+<a id="top"></a>
+
+<!-- Cover: typographic header, no stock photo -->
+<header class="cover container">
+  <img id="cover-logo" class="cover__logo" src="" alt="">
+  <div class="cover__rule"></div>
+  <h1 id="cover-name" class="cover__name"></h1>
+  <p id="cover-tagline" class="cover__tagline"></p>
+</header>
+
+<!-- Sticky search + category rail -->
+<div class="control-bar">
+  <div class="container">
+    <div class="search">
+      <input
+        id="search-input"
+        class="search__input"
+        type="text"
+        placeholder="ابحث عن صنف..."
+        aria-label="بحث عن صنف في المنيو"
+      >
+      <button id="search-clear" class="search__clear" type="button" aria-label="مسح البحث">✕</button>
+    </div>
+    <div id="tabs" class="tabs" role="tablist"></div>
+  </div>
+</div>
+
+<!-- Menu list -->
+<main class="container">
+  <h2 id="section-title" class="section-title"></h2>
+  <div id="menu-list"></div>
+</main>
+
+<footer class="footer">
+  <p id="footer-phone"></p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox__close" aria-label="إغلاق">✕</button>
+  <img src="" alt="">
+</div>
+
+<!-- Utility actions: WhatsApp + back to top -->
+<div id="utility-actions"></div>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
