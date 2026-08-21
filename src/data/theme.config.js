@@ -17,8 +17,8 @@ export const theme = {
   tagline: "Best taste",
   logo: "./logo.jpg",
   favicon: "./logo.jpg",
-  phone: "01122557111",
-  whatsapp: "201122557111", // international format, no + or spaces
+  phone: "01063096863",
+  whatsapp: "201063096863", // international format, no + or spaces
   dir: "rtl",
   currency: "ج.م",
 
