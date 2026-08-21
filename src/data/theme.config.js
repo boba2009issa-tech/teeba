@@ -13,8 +13,8 @@
  * - dir: "rtl" for Arabic/Hebrew menus, "ltr" for others.
  */
 export const theme = {
-  name: " أطياب طيبة",
-  tagline: "الطعم الأصيل",
+  name: "Miss Chicks",
+  tagline: "Best taste",
   logo: "./logo.jpg",
   favicon: "./logo.jpg",
   phone: "01122557111",
